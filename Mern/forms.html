@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Page Title</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    <form>
+      <fieldset>
+            <legend>Dummy</legend>
+
+        <!-- id attribute should be same with for attribute -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br/>
+        <br/>
+        <label for="EmailID">Email ID:</label>
+        <input type="email" id="EmailID" name="emailID" placeholder="email enter">
+        <br/>
+        <br/>
+        <label for="Phone">Phone:</label>
+        <input type="tel" id="Phone" name="Phone">
+        <br/>
+        <br/>
+        <label for = "Occup">Occupation</label>
+        <select name = "Occup" id="Occup">
+            <option value = "student">Student</option>
+            <option value = "Teacher">Teacher</option>
+            <option value = "Doctor">Doctor</option>
+        </select>
+        <br/>
+        <br/>
+        <fieldset>
+            <legend>Topics of Interest</legend>
+            <label for = "HTML">HTML</label>
+            <input type ="checkbox" id="HTML" name ="checkbox">
+            <label for = "CSS">CSS</label>
+            <input type ="checkbox" id="CSS" name ="checkbox">
+            <label for = "JS">JS</label>
+            <input type ="checkbox" id="JS" name ="checkbox">
+        </fieldset>
+      
+        <label for = "Comments">Comments:</label>
+          <br/>
+        
+        <textarea name = "textarea" id = "Comments" rows="10" cols="30">yay</textarea>
+        <br/>
+        <label for = "datepicker">Choose Date:</label>
+            <input type ="date" id="datepicker">
+            <br/>
+            <label for="file">upload</label>
+            <input type="file" id="file">
+            <button>hello</button>
+
+        <input type="submit" value="subscribe">
+        <input type="image" name="img" id="img" src="OIP.webp" height="20px" width="20px">
+        <br/>
+        <label for="pass">Enter password</label>
+            <input type="password" id="pass">
+
+
+      </fieldset>
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>
